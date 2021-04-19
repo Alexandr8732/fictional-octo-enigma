@@ -1,0 +1,39 @@
+/*Стили для очень маленьких экранов (дисплей максимум 575 пикселей)*/ 
+@media(max-width:575px){
+    .menu{
+        position:static;
+    }
+    .menu a{
+        width:100%;
+        padding:20px 0px;
+    }
+    .header{
+        margin:0px;
+        padding:100px 0px;
+        background-size:cover;
+        background-position:center center;
+        min-height:300px;
+        
+    }
+    .tariff{
+        width:90%;
+    }
+    .member{
+        min-width:80%;
+        
+    }
+    .about-company p{
+        margin:20px;
+    }
+    .about-company img{
+        margin:10px 5%;
+        width:90%;
+        float:none;
+    }
+    .contact input{
+        padding:12px 8px;
+        margin:5px 0px;
+    }
+}
+    
+    
